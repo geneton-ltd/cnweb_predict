@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Env variables necessary to be set during build 
 ARG REACT_APP_BACKEND_URL
-ENV REACT_APP_BACKEND_URL="https://rest.genovisio.com"
+ENV REACT_APP_BACKEND_URL="https://predict.genovisio.com"
 
 # Install Requirements
 COPY package.json .
